@@ -1,0 +1,2 @@
+select COUNT(country)
+from   (SELECT Country FROM CUStomers group by Country);
